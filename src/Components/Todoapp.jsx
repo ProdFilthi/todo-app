@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import { FaBook, FaTrash } from "react-icons/fa";
 
