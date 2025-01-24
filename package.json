@@ -1,5 +1,6 @@
 {
   "name": "todoapp",
+  "homepage": "https://prodfilthi.github.io/todo-app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
