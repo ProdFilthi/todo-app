@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { FaTrash } from "react-icons/fa";
+import { FaBook, FaTrash } from "react-icons/fa";
 
 const Todoapp = () => {
   const [todos, setTodos] = useState([]);
@@ -32,6 +32,10 @@ const Todoapp = () => {
   };
   return (
     <div className="bg-white p-4 rounded-lg shadow-lg max-w-96 min-h-96">
+      <div className="flex items-center justify-between px-1 text-xl">
+        <h1>Todo</h1>
+        <FaBook />
+      </div>
       <div className="flex items-center justify-center mt-4">
         <input
           onKeyDown={keyPress}
